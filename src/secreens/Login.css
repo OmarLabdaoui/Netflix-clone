@@ -1,0 +1,83 @@
+.login{
+    position: relative;
+    width: 100%;
+    background: url("https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/04/ntflxx-1540x866.png") center no-repeat;
+    background-size: cover;
+}
+.login__logo{
+    object-fit: contain;
+    width: 150px;
+    position: fixed;
+    left: 0;
+    padding-left: 20px;
+    cursor: pointer;
+    top: 25px;
+}
+.login__body{
+    color: white;
+    position: absolute;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+    left: 0;
+    right: 0;
+ 
+}
+.login__input>form>input{
+    padding: 10px;
+    outline:none;
+    height: 30px;
+    max-width: 600px;
+    width: 30%;
+    border: none;
+   
+   
+}
+.login__input{
+    margin: 20px;
+}
+.login__input>form>button{
+    padding:15.9px 20px;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    background-color:#e50914 ;
+    font-weight: 600;
+    cursor: pointer;
+}
+.login__body>h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+   
+}
+.login__body>h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.login__body>h1{
+    font-size: 3.125rem;
+    
+    margin-bottom: 20px;
+}
+.login__button{
+    position: fixed;
+    right: 20px;
+    top: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+}
+.login__grad{
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(0,0,0,0.4);
+}

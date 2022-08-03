@@ -1,0 +1,19 @@
+.plann__secren{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+    opacity: 0.7;
+}
+.plann__secren:hover{
+    opacity: 1;
+}
+.plan__button{
+    border: none;
+    outline: none;
+    color: white;
+    background-color:#e50914;
+    font-size: 1rem;
+    font-weight:400;
+    padding: 10px;
+    cursor: pointer;
+}
